@@ -5,18 +5,20 @@ small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol,
 fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
+ caption, tfoot, thead, 
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-    margin: 0;
+    margin: 0 auto;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
 	vertical-align: center;
     font-family: 'another_typewriterregular';
     text-align: center;
+    background-color: blanchedalmond;
+    color: #181919;
     
     
 }
@@ -38,31 +40,122 @@ footer, header, hgroup, menu, nav, section {
 
 
 /*nav stylings*/
-ul {
+nav {
+    padding-bottom: 50px;
+    position: relative;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    padding-top: 2px;
+    width: 100%;
+    
+
+}
+nav ul {
    
    margin: 0;
    padding: 0;
    overflow: hidden;
    width: 100%;
+
+   
+   
    
 }
-li {
+nav li {
 
     text-align: center;
     font-size: 24px;
     display: inline-block;
+    border: solid 3px #523832;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 40px;
+    
+    
+    
   
     
 }
 
-a {
+nav a {
     text-decoration: none;
     display: block;
     padding: 10px;
+    float: center;
+    padding-left: 75px;
+    padding-right: 75px;
+    
+    
 }
 
 /* hours styling */
 .hours table {
     margin: 0 auto;
+    
 }
+.hours {
+    border: solid 3px #523832;
+    max-width: 300px;
+    margin: 0 auto;
+    padding-top: 15px;
+    background-color: #A59BDE; 
+}
+.hours h2 {
+    font-size: 18px;
+    background-color: #A59BDE;
+}
+tr, th, td, table {
+    margin: 0;
+	padding-top: 40px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+	font-size: 100%;
+	vertical-align: center;
+    font-family: 'another_typewriterregular';
+    text-align: center;
+}
+
+
+
+/* about styling*/
+
+.about {
+    max-width: 500px;
+    margin: 0 auto;
+    
+}
+
+.about h2 {
+    font-size: 22px;
+    padding-bottom: 25px;
+}
+
+/* desktop grid styles */
+
+/* first div styling */
+.flex-container {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 300px 300px;
+    padding-top: 50px;
+    place-content: center;
+    width: 100%;
+
+}
+/*second div styling */
+.flex-container2 {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 300px 300px;
+    place-content: center;
+    width: 100%;
+    
+    
+    
+
+}
+
+
+
 
