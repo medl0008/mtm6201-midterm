@@ -40,6 +40,7 @@ footer, header, hgroup, menu, nav, section {
 
 
 /*nav stylings*/
+
 nav {
     padding-bottom: 50px;
     position: relative;
@@ -47,20 +48,16 @@ nav {
     padding-bottom: 20px;
     padding-top: 2px;
     width: 100%;
-    
-
 }
+
 nav ul {
    
    margin: 0;
    padding: 0;
    overflow: hidden;
-   width: 100%;
-
-   
-   
-   
+   width: 100%; 
 }
+
 nav li {
 
     text-align: center;
@@ -69,12 +66,7 @@ nav li {
     border: solid 3px #523832;
     padding-left: 30px;
     padding-right: 30px;
-    margin-left: 40px;
-    
-    
-    
-  
-    
+    margin-left: 40px;    
 }
 
 nav a {
@@ -83,21 +75,28 @@ nav a {
     padding: 10px;
     float: center;
     padding-left: 75px;
-    padding-right: 75px;
-    
-    
+    padding-right: 75px;  
+}
+
+nav li:hover {
+    background-color: #A59BDE;
+}
+
+nav a:hover {
+    background-color: #A59BDE;
 }
 
 /* hours styling */
 .hours table {
     margin: 0 auto;
     
+    
 }
 .hours {
     border: solid 3px #523832;
     max-width: 300px;
     margin: 0 auto;
-    padding-top: 15px;
+    padding-top: 30px;
     background-color: #A59BDE; 
 }
 .hours h2 {
@@ -129,6 +128,10 @@ tr, th, td, table {
 .about h2 {
     font-size: 22px;
     padding-bottom: 25px;
+}
+
+picture img {
+    border: solid 10px #A59BDE;
 }
 
 /* desktop grid styles */
