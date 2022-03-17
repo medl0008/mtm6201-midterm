@@ -184,7 +184,7 @@ picture img {
 /* desktop grid styles */
 @media only screen and (min-width: 1050px) {
 
-/* first div styling */
+/* first index div grid styling */
 .flex-container {
     display: grid;
     grid-template-columns: 500px 500px;
@@ -194,7 +194,7 @@ picture img {
     width: 100%;
 
 }
-/*second div styling */
+/*second index div grid styling */
 .flex-container2 {
     display: grid;
     grid-template-columns: 500px 500px;
@@ -203,6 +203,7 @@ picture img {
     width: 100%;
 }
 
+/* contact div grid styling */
 .flex-container3 {
     display: grid;
     grid-template-columns: 300px 300px 300px;
