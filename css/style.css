@@ -38,6 +38,11 @@ footer, header, hgroup, menu, nav, section {
     display: block;
 }
 
+footer {
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
 
 /*nav stylings*/
 
