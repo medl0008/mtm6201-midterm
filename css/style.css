@@ -41,12 +41,13 @@ footer, header, hgroup, menu, nav, section {
 
 /*nav stylings*/
 
+.container {
+    width: 100%;
+}
+
 nav {
     padding-bottom: 50px;
     position: relative;
-    padding-left: 40px;
-    padding-bottom: 20px;
-    padding-top: 2px;
     width: 100%;
 }
 
@@ -66,25 +67,25 @@ nav li {
     border: solid 3px #523832;
     padding-left: 30px;
     padding-right: 30px;
-    margin-left: 40px;    
+    width: 200px; 
+    padding-top: 10px;  
+    padding-bottom: 10px;
+       
 }
 
 nav a {
     text-decoration: none;
     display: block;
-    padding: 10px;
-    float: center;
-    padding-left: 75px;
-    padding-right: 75px;  
+    float: center;  
 }
 
-nav li:hover {
+
+
+nav li:hover, nav a:hover {
     background-color: #A59BDE;
 }
 
-nav a:hover {
-    background-color: #A59BDE;
-}
+
 
 /* hours styling */
 .hours table {
@@ -120,21 +121,57 @@ tr, th, td, table {
 /* about styling*/
 
 .about {
-    max-width: 500px;
+    min-width: 250px;
+    max-width: 450px;
     margin: 0 auto;
-    
+    padding-bottom: 25px;
 }
 
 .about h2 {
     font-size: 22px;
     padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.owner {
+    padding-top: 50px;
 }
 
 picture img {
     border: solid 10px #A59BDE;
 }
 
+/* products styling */
+
+.products {
+    font-size: 24px;
+    width: 60%;
+    margin: 0 auto;
+    border: solid 5px purple;
+}
+
+.products h2 {
+    background-color: #A59BDE;
+    padding-top: 10px;
+}
+
+.products div {
+    background-color: #A59BDE;
+    padding-top: 30px;
+}
+
+.products picture {
+    border: solid 5px purple;
+}
+
+.america h2 {
+    padding-bottom: 30px;
+}
+
+
+
 /* desktop grid styles */
+@media only screen and (min-width: 1050px) {
 
 /* first div styling */
 .flex-container {
@@ -153,9 +190,7 @@ picture img {
     grid-template-rows: 300px 300px;
     place-content: center;
     width: 100%;
-    
-    
-    
+}
 
 }
 
