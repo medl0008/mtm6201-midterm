@@ -43,6 +43,15 @@ footer {
     padding-bottom: 10px;
 }
 
+/* animation code */
+
+@keyframes animate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+
+
 
 /*nav stylings*/
 
@@ -123,6 +132,8 @@ tr, th, td, table {
     max-width: 450px;
     margin: 0 auto;
     padding-bottom: 25px;
+    animation-name: animate;
+    animation-duration: 5s;
 }
 
 .about h2 {
